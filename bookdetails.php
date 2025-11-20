@@ -1,5 +1,5 @@
 <?php
-include("connect.php");
+include("connect.php);
 ?>
 <html>
 <head>
@@ -10,9 +10,9 @@ include("connect.php");
 <form action="display.php" method="POST">
 Book number:<input type="text" name="bookno"><br><br>
 Book title:<input type="text" name="booktitle"><br><br>
-Book edition: <input type="text" name="bookedition"><br><br>
+Book edition: <input type="number" name="booked"><br><br>
 Book publisher: <input type="text" name="bookpub" value=""><br><br>
-<input type="submit" name="submit" value="Submit">
+<input type="submit" name="submit" value="submit">
 </form>
 </center>
 </body>
